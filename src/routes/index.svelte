@@ -1,46 +1,11 @@
-<style>
-	h1, figure, p {
-		text-align: center;
-		margin: 0 auto;
-	}
-
-	h1 {
-		font-size: 2.8em;
-		text-transform: uppercase;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
-	}
-
-	figure {
-		margin: 0 0 1em 0;
-	}
-
-	img {
-		width: 100%;
-		max-width: 400px;
-		margin: 0 0 1em 0;
-	}
-
-	p {
-		margin: 1em auto;
-	}
-
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
-		}
-	}
-</style>
-
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>Bio</title>
 </svelte:head>
 
-<h1>Toon Nelissen</h1>
+<h2>Who's Toon</h2>
 
-<figure>
-	<img alt='Success Kid' src='Toon2.png'>
-	<figcaption>2020</figcaption>
-</figure>
-
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+<p>I'm a being of the <strong>human</strong> species, interested in to many things. I like to create, make, organise, discover, explore and coordinate. </p>
+<p>I earn my living as the manager of <a href="https://appsaloon.be">AppSaloon</a>, a software development company I co-founded in 2011. </p>
+<p>I'm advocating openness and transparency as a boardmember of Open Knowledge Belgium and as a co-organiser of Civic Lab Brussels. Project lead of Influencair the civic owned air quality sensor network.  </p>
+<p>I get lost in researching/understanding the way things/ the world works and making. </p>
+<p>I find peace in music, dance and mountains</p>

@@ -1,0 +1,13 @@
+[
+  {
+    "interest": "technology"
+  },
+  {
+    "interest": "wood"
+  },
+  {
+    "interest": "electronics",
+    "parent": "technology"
+  }
+
+]
