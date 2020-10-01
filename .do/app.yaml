@@ -1,0 +1,13 @@
+name: toonnelissen-eu
+region: ams
+static_sites:
+- build_command: npm run build && npm start
+  environment_slug: node-js
+  github:
+    branch: master
+    deploy_on_push: true
+    repo: Cinezaster/toonnelissen.eu
+  name: toonnelissen-eu
+  output_dir: __sapper__/export
+  routes:
+  - path: /
